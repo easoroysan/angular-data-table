@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #c2185b6e;
+}
+
+.app-container {
+  height: 100vh;
+  overflow: hidden;
+
+  .card-container {
+    width: 90vw;
+    max-height: 90vh;
+    margin: 5vh 5vw;
+
+    @media only screen and (max-width: 550px) {
+      width: 98vw;
+      max-height: 98vh;
+      margin: 1vw;
+    }
+  }
+}
+
+mat-card-header {
+  color: white;
+}

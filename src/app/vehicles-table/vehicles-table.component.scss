@@ -1,0 +1,18 @@
+.data-table {
+  max-height: calc(90vh - 60px);
+  width: 100%;
+  overflow: auto;
+
+  @media only screen and (max-width: 550px) {
+    max-height: calc(98vh - 60px);
+  }
+
+  .small-cell {
+    max-width: 50px;
+    padding: 0;
+
+    button {
+      padding: 0 0 0 8px;
+    }
+  }
+}

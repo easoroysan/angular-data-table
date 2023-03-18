@@ -1,0 +1,15 @@
+.add-edit-vehicle-card {
+  .card-header {
+    margin-bottom: 10px;
+  }
+
+  .vehicle-form {
+    mat-form-field {
+      margin-right: 10px;
+    }
+  }
+
+  .card-actions {
+    padding: 0 26px 10px;
+  }
+}

@@ -1,0 +1,27 @@
+.delete-vehicle-card {
+  min-width: 450px;
+  min-height: 200px;
+
+  @media screen and (max-width: 600px) {
+    min-width: 0;
+  }
+
+  .card-header {
+    margin-bottom: 10px;
+
+    mat-card-subtitle {
+      font-size: 16px;
+
+      .vehicle-information {
+        color: #ff2078;
+      }
+    }
+  }
+
+  .card-actions {
+    padding: 0 26px 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

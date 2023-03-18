@@ -1,0 +1,17 @@
+<mat-card class="delete-vehicle-card">
+  <mat-card-header class="card-header">
+    <mat-card-title>Delete Confirmation</mat-card-title>
+    <mat-card-subtitle
+      >Are you sure you want to delete
+      <span class="vehicle-information"
+        >{{ data.ownerName }}'s {{ data.make }} {{ data.model }}</span
+      >?</mat-card-subtitle
+    >
+  </mat-card-header>
+  <mat-card-actions align="end" class="card-actions">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button mat-raised-button color="primary" (click)="deleteVehicle()">
+      Delete
+    </button>
+  </mat-card-actions>
+</mat-card>
